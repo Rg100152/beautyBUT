@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>beautyBUT — Clean Beauty, Real Results</title>
+  <meta name="description" content="beautyBUT — cruelty-free, vegan cosmetics for real skin." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="frontend/css/style.css" />
+  <link rel="icon" href="assets/images/logo.png" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container nav">
+      <a href="index.html"><img src="assets/images/logo.png" alt="beautyBUT" class="logo" /></a>
+      <nav>
+        <a href="#products">Shop</a>
+        <a href="frontend/pages/about.html">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#" class="cart-btn">🛒 <span id="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Beauty, <span class="accent">but</span> bolder.</h1>
+        <p>Clean formulas. Real results. Cruelty-free.</p>
+        <a href="#products" class="btn">Shop the Collection →</a>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/products/product-1.png" alt="Featured product" />
+      </div>
+    </div>
+  </section>
+
+  <section class="trust-bar">
+    <div class="container trust-inner">
+      <span>🐰 Cruelty-Free</span>
+      <span>🌱 Vegan</span>
+      <span>✨ Dermat-Tested</span>
+      <span>🇮🇳 Made in India</span>
+    </div>
+  </section>
+
+  <section id="products" class="products container">
+    <h2>Our Collection</h2>
+    <div class="filter-chips">
+      <button class="chip active" data-category="all">All</button>
+      <button class="chip" data-category="lips">Lips</button>
+      <button class="chip" data-category="eyes">Eyes</button>
+      <button class="chip" data-category="skin">Skin</button>
+      <button class="chip" data-category="face">Face</button>
+    </div>
+    <div id="product-grid" class="grid">
+      <p class="loading">Loading products...</p>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <h2>Why beautyBUT?</h2>
+      <p>Honest beauty. No harsh chemicals. No animal testing. Just clean, effective formulas your skin will love.</p>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <div class="container">
+      <p>© 2026 beautyBUT. All rights reserved.</p>
+      <p>📧 hello@beautybut.com</p>
+      <p>Designed &amp; developed by <strong>Raj Gautam</strong> · graj13099@gmail.com</p>
+    </div>
+  </footer>
+
+  <script src="frontend/js/api.js"></script>
+  <script src="frontend/js/main.js"></script>
+</body>
+</html>

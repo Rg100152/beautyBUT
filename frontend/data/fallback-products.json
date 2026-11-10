@@ -1,0 +1,26 @@
+{
+  "count": 3,
+  "products": [
+    {
+      "id": 1,
+      "name": "Velvet Lip Tint",
+      "price": 499,
+      "image": "/assets/images/products/product-1.png",
+      "category": "lips"
+    },
+    {
+      "id": 2,
+      "name": "Glow Serum",
+      "price": 699,
+      "image": "/assets/images/products/product-2.png",
+      "category": "skin"
+    },
+    {
+      "id": 3,
+      "name": "Soft Blush",
+      "price": 599,
+      "image": "/assets/images/products/product-3.png",
+      "category": "face"
+    }
+  ]
+}
